@@ -1,0 +1,36 @@
+.paginate {
+    padding: 5px 0;
+
+}
+
+.paginate li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.paginate a {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    color: #1a202c;
+    box-shadow: 0 0 5px #cccccc;
+}
+
+:global .selected a {
+    background: #cccccc;
+    color: #ffffff;
+}
+
+:global .selected a:not([href]) {
+    background: #cccccc;
+    color: #ffffff;
+}
+
+.paginate a:hover {
+    background: rgba(153, 153, 153, 0.4);
+}
