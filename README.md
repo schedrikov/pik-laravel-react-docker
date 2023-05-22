@@ -11,7 +11,7 @@
 ### `composer install`
 
 запустить миграции и добавить тестовые данные
-### `php artisan magrate --seed`
+### `php artisan migrate --seed`
 
 открыть проект в браузере
 ### `http://127.0.0.1:8080`
